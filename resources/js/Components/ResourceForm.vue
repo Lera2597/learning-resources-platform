@@ -43,7 +43,7 @@ function createResource() {
         <input type="text" v-model="description"/>
         <input type="text" v-model="link"/>
         <select v-model="category_id">
-            <option v-for="category in categories" :key="category_id" :value="category.id">
+            <option v-for="category in categories" :key="category.id" :value="category.id">
                 {{ category.name }}
             </option>
         </select>
